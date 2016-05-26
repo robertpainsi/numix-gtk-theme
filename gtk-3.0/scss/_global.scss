@@ -3,18 +3,18 @@
 @import "functions";
 
 // default color scheme
-$bg_color: if($variant == "dark", #444, #eee);
+$bg_color: if($variant == "dark", #3c3f41, #bbb);
 $fg_color: if($variant == "dark", #ddd, #555);
-$base_color: if($variant == "dark", #333, #fff);
-$text_color: if($variant == "dark", #eee, #333);
+$base_color: if($variant == "dark", #2b2b2b, #fff);
+$text_color: if($variant == "dark", #bbb, #2b2b2b);
 $selected_bg_color: #496490;
 $selected_fg_color: #fff;
-$tooltip_bg_color: #444;
-$tooltip_fg_color: #eee;
+$tooltip_bg_color: #3c3f41;
+$tooltip_fg_color: #bbb;
 
 // dark colors
-$dark_bg_color: #444;
-$dark_fg_color: #eee;
+$dark_bg_color: #3c3f41;
+$dark_fg_color: #bbb;
 
 // shadows
 $dark_shadow: #000;
